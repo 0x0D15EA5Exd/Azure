@@ -13,5 +13,3 @@ Automating database import on SQL Express
   - SQL Package -> Import databases;
   - sqlcmd -> DROP previous version of databases;
 
-
-Translated with www.DeepL.com/Translator (free version)
