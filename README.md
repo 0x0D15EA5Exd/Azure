@@ -1,14 +1,17 @@
-# Azure : SQL Automation - Export & Import 
+# Azure: SQL Automation - Export & Import 
 
 
 
 
 
-Automatisation de l'export des bases de données depuis Azure SQL Server vers un fichier .BACPAC dans un stockage stokcage Blob.
+Automate database export from Azure SQL Server to a .BACPAC file in a Blob stokcage.
   - New-AzSqlDatabaseExport -> Export;
-  - Get-AzSqlDatabaseImportExportStatus -> Boucle pour vérifier l'état des exports;
-  - AzCopy -> Téléchargement du conteneur;
+  - Get-AzSqlDatabaseImportExportStatus -> Loop to check export status;
+  - AzCopy -> Download the container;
 
-Automatisation de l'import des bases de données sur SQL Express 
-  - SQL Package -> Import les bases de données;
-  - sqlcmd -> DROP version précédente des BDDs;
+Automating database import on SQL Express 
+  - SQL Package -> Import databases;
+  - sqlcmd -> DROP previous version of databases;
+
+
+Translated with www.DeepL.com/Translator (free version)
